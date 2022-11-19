@@ -1,0 +1,240 @@
+@media (max-width:761.98px) {
+    body {
+        overflow-x: hidden;
+    }
+/* nav */
+.manu{
+    text-align: center;
+}
+.manu .home_img img{
+    text-align: center;
+    
+}
+.manu .res_button {
+    border: 1px solid #fff;
+}
+.manu .res_button i{
+    color: #fff;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow:none;
+}
+    /* home responsiv part start */
+
+    .home_banner_text h2 {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .home_banner_text p {
+        text-align: center;
+
+    }
+
+    .banner_btn {
+        padding: 30px 0 50px 0;
+
+    }
+    .banner_btn a{
+        margin-left: 0;
+
+    }
+    .home_ban_btnone{
+        padding: 10px 0px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .home_ban_btntwo{
+        padding: 10px 0px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .banner_btn .home_ban_btntwo{
+        margin-top: 20px;
+    }
+    .home_banner_img img {
+        padding: 0 50px;
+    }
+
+    /* banner start */
+    .home_work_text h3 {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .home_work_text p {
+        text-align: center;
+
+    }
+
+    .home_work_text a {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+
+    /* banner end */
+    /* projacr part start */
+
+    .home_project_img {
+        margin-bottom: 30px;
+    }
+    .projact_work_left .home_ban_btntwo{
+        padding: 10px 0px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        background-color: #FCD980;
+        margin-top: 15px;
+    }
+    #home_about {
+        padding-top: 0px;
+    }
+
+    .home_about_slick {
+        padding-top: 30px;
+    }
+
+    .home_about_left_text h4 {
+        font-size: 20px;
+    }
+
+    .home_question_left {
+        padding-bottom: 30px;
+    }
+
+    #home_blog_part {
+        padding-top: 0;
+    }
+
+
+    /* projacr part end */
+    /* home responsiv part end */
+    /* about responsiv part start */
+    .about_banner p {
+        padding-bottom: 30px;
+    }
+
+    .about_banner_img {
+        margin-left: 0px;
+
+    }
+
+    #about_banner_part {
+        padding: 150px 0 100px 0;
+    }
+
+    .about_improvement_text {
+        padding-top: 10px;
+
+    }
+
+    #about_mission {
+        padding-top: 0;
+
+    }
+.mission_right{
+    margin-right: 0px;
+}
+    .about_mission_img {
+        padding-top: 30px;
+    }
+
+    #benefits_part {
+        padding-bottom: 40px;
+    }
+
+    #about_team_part {
+        padding-top: 50px;
+
+    }
+
+    .about_pricing_iteam {
+        padding: 0px 48px 62px 48px;
+
+    }
+
+    /* about responsiv part end */
+    /* feature responsiv part starat */
+    .feature_img {
+        padding-top: 15px;
+    }
+
+    .home_banner_text p {
+        padding-bottom: 0px;
+    }
+
+    #feature_part {
+        padding: 70px 0 90px 0;
+    }
+
+    #feature_user {
+        padding-bottom: 90px;
+    }
+
+    #feature_revition {
+        background-color: #E5E5E5;
+        padding: 90px 0;
+    }
+
+    #feature_support {
+        padding: 90px 0;
+    }
+
+    #feature_delivery {
+        padding: 90px 0;
+
+    }
+
+    /* feature responsiv part end */
+    /* work responsiv part start */
+    #work_portfolio {
+        padding: 150px 0 100px 0;
+    }
+
+    #work_lets_part {
+        padding-bottom: 90px;
+    }
+
+    #work_templat_part {
+        padding-bottom: 30px;
+
+    }
+
+    /* work responsiv part end */
+    /* blog responsiv part start */
+    #blog_banner_part {
+        padding-bottom: 50px;
+    }
+
+    /* blog responsiv part end */
+    /* studies responsiv start */
+    #studies_about_part {
+        padding-bottom: 90px;
+    }
+
+    .degin_studies {
+        margin-right: 35px;
+    }
+
+    /* studies responsiv end */
+    /* footer staer */
+    .footer_right h4{
+        font-size: 30px;
+    }
+    .footer_right p{
+        font-size: 14px;
+    }
+    .footer_right a{
+        padding-bottom: 20px;
+    }
+    /* footer end */
+
+}

@@ -1,0 +1,101 @@
+#navbar_part{
+    background-color: #1C1E53;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  
+}
+.manu{
+    animation: navbigation 1s;
+}
+@keyframes navbigation{
+0%{
+    top: -50px;
+}
+100%{
+    top: 0px;
+}
+
+}
+
+.home_img img{
+    width: 100%;
+}
+#navbar_part{
+    padding: 15px 0;
+}
+#navbar_part .active{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+}
+#navbar_part .active:hover{
+    color: #FCD980;
+}
+
+#navbar_part ul li a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #BBBBCB;
+    margin: 0 10px;
+    position: relative;
+}
+#navbar_part ul li a:hover{
+    color: #FCD980;
+}
+#navbar_part ul li a::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    bottom: 5px;
+    left: 0;
+    background-color: #FCD980;
+    transition: all linear 0.5s;
+    opacity: 0;
+}
+#navbar_part ul li a:hover::after{
+    opacity: 1;
+    width: 100%;
+}
+#navbar_part ul li a.home_contact{
+    padding: 10px 30px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+border-radius: 41px;
+    margin-left: 20px;
+transition: all linear 0.5s;
+}
+#navbar_part ul li .home_contact:hover::after{
+    opacity: 0;
+}
+.home_contact:hover{
+    background-color: #FCD980;
+    color: #ffff !important;
+    border: 2px solid transparent;
+
+}
+.scrollber{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    
+}
+.scrollber i{
+   width: 30px;
+   height: 30px;
+   border: 1px solid rgba(244, 246, 252, 0.2);
+   border-radius: 50%;
+   color: #FCD980;
+   line-height: 30px;
+   text-align: center;
+   transition: 0.8s;
+
+}
+.scrollber i:hover{
+    color: #fff;
+    background-color: #FCD980;
+    border: 1px solid transparent;
+}

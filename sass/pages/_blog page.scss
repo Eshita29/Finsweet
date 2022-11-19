@@ -1,0 +1,142 @@
+#blog_banner_part{
+    padding: 128px 0;
+}
+.blog_banner_head{
+    text-align: center;
+}
+.blog_banner_head h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+    font-style: normal;
+    
+  
+}
+.blog_banner_head h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+    font-style: normal;
+    padding-bottom: 32px;
+    
+  
+}
+.blog_banner_img{
+   
+    overflow: hidden;
+    position: relative;
+    
+}
+.blog_banner_img img{
+   
+    transition: all linear 0.5s;
+}
+.blog_banner_img:hover img{
+  transform: scale(1.3);
+}
+.blog_banner_over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(28, 30, 83, 0.5);
+    transition: all linear 0.5s;
+
+}
+.blog_banner_img:hover .blog_banner_over{
+width: 100%;
+
+
+}
+.blog_banner_text p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+    font-style: normal;
+    padding-top: 48px;
+    opacity: 0.7;
+}
+.blog_banner_text a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #2405F2;
+    font-style: normal;
+   
+   
+}
+// blog_part start
+#blog_part{
+padding-bottom:100px ;
+
+}
+
+.blog_head h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+    font-style: normal;
+   text-transform: capitalize;
+}
+.blog_blog_images{
+    overflow: hidden;
+}
+.blog_blog_images img{
+   
+    transition: all linear 0.5s;
+}
+.blog_blog_iteam:hover .blog_blog_images img{
+    transform: scale(1.3);
+}
+.blog_blog_text span{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+    font-style: normal;
+    padding-top: 26px;
+    padding-bottom: 7px;
+    display: inline-block;
+    opacity: 0.7;
+   
+
+}
+.blog_blog_text h5{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+    font-style: normal;
+    padding-right: 20px;
+    padding-bottom: 7px;
+}
+.blog_blog_iteam:hover .blog_blog_text h5{
+    color: #26298d;
+}
+.blog_blog_text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    font-style: normal;
+    opacity: 0.7;
+    padding-bottom: 18px;
+}
+.blog_blog_text a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+    font-style: normal;
+    display: inline-block;
+    
+}
+.blog_blog_iteam:hover .blog_blog_text a{
+    color: #26298d;
+}
+// blog_part end
